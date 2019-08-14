@@ -64,3 +64,45 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+
+.navbar{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.services-header-img{
+    padding-top: 2rem;
+    width: 95%;
+}
+
+
+.Card-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly
+}
+
+.card{
+    border: 2px solid black;
+    padding: 50px;
+    text-align: left;
+    width: 45%;
+    height: 290px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+}
