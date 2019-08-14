@@ -93,16 +93,35 @@ header{
 .Card-box{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 20px;
 }
 
 .card{
     border: 2px solid black;
-    padding: 50px;
+    padding: 10px 10px 10px 10px;
     text-align: left;
-    width: 45%;
-    height: 290px;
+    width: 40%;
+    height: 225px;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #f8f8f8;
+}
+
+.card-button{
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+}
+
+.card-button:hover{
+    background-color: lightgreen;
+}
+
+
+.footer-card-box{
+    display: flex;
 }
