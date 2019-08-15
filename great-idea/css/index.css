@@ -92,3 +92,7 @@ header{
 	display: flex;
 	flex-wrap: nowrap;
 }
+
+.tic-tacs{
+	display: flex;
+}
