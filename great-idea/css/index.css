@@ -148,8 +148,11 @@ header{
 
 footer{
 	margin-bottom: 2rem;
+	margin-top: 2rem;
+	padding-left: 12rem;
 }
 
 .copyright{
 	text-align: center;
+	padding-right: 10rem;
 }
